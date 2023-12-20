@@ -595,7 +595,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 29px;
+    gap: 99px;
+    margin-bottom: 30px;
 }
 
 .browserPlans {
@@ -634,8 +636,8 @@
 
 .toggleSwitch .toggle{
     position: absolute;
-    top: 3190px;
-    left: 1199px;
+    top: 3165px;
+    left: 783px;
     height: 30px;
     width: 1200px;
 }
@@ -686,4 +688,78 @@
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: 0;
+}
+
+.withOrWithoutAdsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+    width: 27vw
+}
+
+.withOrWithoutAdsContainer .withAds, .withAdsContainer, .withOutAdsContainer, .withOutAds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    width: 100%;
+    gap: 5px;
+}
+
+.withOrWithoutAdsContainer .withAds .btnMostPopular button {
+    padding: 10.5px 27px;
+    border-radius: 24px;
+    background: #1ce783;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: default;
+    margin-bottom: 17px;
+}
+
+.withOrWithoutAdsContainer .heading {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    color: rgb(190, 192, 194);
+}
+
+.withOrWithoutAdsContainer .subHeading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.24;
+    letter-spacing: 0;
+    color: white;
+}
+
+.priceBtnContainer {
+    width: 100%;
+}
+
+.priceBtnContainer .priceBtn {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+.priceBtnContainer button{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 1;
+    color: #040405;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.priceBtnContainer button:hover {
+    background-color: #ffffffCC;
 }
