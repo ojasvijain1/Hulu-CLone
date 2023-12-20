@@ -543,7 +543,7 @@
 .main4 {
     background-color: #0b0c0f;
     color: white;
-    height: 100vh;
+    height: 148vh;
 }
 
 .main4Container {
@@ -762,4 +762,51 @@
 
 .priceBtnContainer button:hover {
     background-color: #ffffffCC;
+}
+
+.planFeaturesSeparator {
+    width: 1265px;
+    height: 0.1px;
+    background: #464d57;
+}
+
+.planFeaturesSeparator div {
+    display: none;
+}
+
+.planFeatureItem {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.36;
+}
+
+.planFeatureItem .pricingRow, .planFeatureTitle {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.planFeatureItem .plansWithAd, .planFeautureCheck-0 {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.planFeatureItem .plansWithoutAd, .planFeautureCheck-0 {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.planFeatureTitle {
+    padding: 20px 0;
 }
