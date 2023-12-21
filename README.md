@@ -22,7 +22,7 @@ This project is a clone of the Hulu website, showcasing the ability to recreate 
 ### Installation
 
 1. Clone the repository: `git clone https://github.com/ojasvijain1/Hulu-CLone.git`
-2. Navigate to the project directory: `cd hulu-clone`
+2. Navigate to the project directory: `cd Hulu-CLone`
 3. [Any additional steps for setting up the project]
 
 ### Usage
