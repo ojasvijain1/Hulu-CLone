@@ -841,3 +841,101 @@
 .ShowAddOns img {
     padding-left: 8px;
 }
+
+.main5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    gap: 70px;
+    border-bottom: 1px solid #d9dce2;
+    padding: 52px 0 86px;
+}
+
+.gridItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridItems a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #586174;
+}
+
+.gridContainer > .gridItems:nth-child(2), 
+.gridContainer > .gridItems:nth-child(3), 
+.gridContainer > .gridItems:nth-child(4){
+    margin-top: 20px;
+}
+
+.gridContainer > .gridItems:nth-child(1) :nth-child(1),
+.gridContainer > .gridItems:nth-child(5) :nth-child(1),
+.gridContainer > .gridItems:nth-child(6) :nth-child(1) {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    color: black;
+    cursor: default;
+}
+
+.legalLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 55vw;
+    padding: 32px 0 0;
+}
+
+.legalLinksLeft {
+    margin: 0 42px 32px 0;
+    min-width: fit-content;
+    white-space: nowrap;
+}
+
+.legalLinksLeft a {
+    padding-right: 32px;
+    text-decoration: none;
+
+}
+
+.legalLinksRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: -32px;
+    margin-bottom: 32px;
+}
+
+.legalLinksRightCol, .legalLinksRightCol a {
+    margin-left: 32px;
+    margin-right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.44;
+    letter-spacing: 0;
+    color: #586174;
+    text-decoration: none;
+}
+
+.legalLinksRight > .legalLinksRightCol:nth-child(2) img{
+    padding-right: 5px;
+}
+
+.legalLinksRight > .legalLinksRightCol:nth-child(2) a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
