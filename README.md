@@ -8,12 +8,6 @@ This project is a clone of the Hulu website, showcasing the ability to recreate 
 - Browse and view a curated selection of movies and TV shows.
 - Dynamic content loading using.
 
-## Screenshots
-
-![Screensho![ss0](<Screenshot 0.png>)t 1]
-
-![Screenshot 2]![ss1](<Screenshot 1.png>)
-
 ## Tech Stack
 
 - HTML5, CSS3
@@ -27,7 +21,6 @@ This project is a clone of the Hulu website, showcasing the ability to recreate 
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/ojasvijain1/Hulu-CLone.git`
 2. Navigate to the project directory: `cd hulu-clone`
 3. [Any additional steps for setting up the project]
 
