@@ -235,17 +235,6 @@
     justify-content: center;
 }
 
-/* .main2 {
-    background-color: #0b0c0f;
-    color: white;
-    position: absolute;
-    top: 709px;
-    width: 100%;
-    height: 99vh;
-    display: flex;
-    justify-content: center;
-} */
-
 .main2 .topContainer {
     display: flex;
     flex-direction: column;
